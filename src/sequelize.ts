@@ -18,12 +18,12 @@ export const sequelize = new Sequelize({
 /**
  * @todo    testing connection
  */
-sequelize.authenticate()
-    .then(() => console.log("Connected to DB"))
-    .catch(err => console.log(err))
+// sequelize.authenticate()
+//     .then(() => console.log("Connected to DB"))
+//     .catch(err => console.log(err))
 
 /**
  * @todo    sync
  */
-sequelize.sync({ alter: true })
-    .then(() => console.log("Sync successfully"))
+// sequelize.sync({ alter: true })
+//     .then(() => console.log("Sync successfully"))
